@@ -1,8 +1,8 @@
 {
-  "name": "claude-setup-cli",
+  "name": "claude-code-setup",
   "version": "1.0.0",
   "description": "Automatically configure Claude Code for your project with intelligent agents, commands, and guardrails",
-  "author": "Anthropic PBC",
+  "author": "Adir Traitel",
   "license": "MIT",
   "type": "module",
   "keywords": [
@@ -24,13 +24,13 @@
     "security",
     "testing"
   ],
-  "homepage": "https://github.com/anthropics/claude-setup-cli#readme",
+  "homepage": "https://github.com/Adirtr/claude-code-setup#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anthropics/claude-setup-cli.git"
+    "url": "git+https://github.com/Adirtr/claude-code-setup.git"
   },
   "bugs": {
-    "url": "https://github.com/anthropics/claude-setup-cli/issues"
+    "url": "https://github.com/Adirtr/claude-code-setup/issues"
   },
   "bin": {
     "claude-setup": "./bin/claude-setup.js"

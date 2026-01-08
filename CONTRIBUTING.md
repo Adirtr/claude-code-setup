@@ -1,6 +1,6 @@
-# Contributing to Claude Setup CLI
+# Contributing to Claude Code Setup
 
-Thank you for your interest in contributing to Claude Setup CLI! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to Claude Code Setup! This document provides guidelines and information for contributors.
 
 ## Table of Contents
 
@@ -39,8 +39,8 @@ By participating in this project, you agree to maintain a respectful and inclusi
 2. **Clone your fork**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/claude-setup-cli.git
-   cd claude-setup-cli
+   git clone https://github.com/YOUR_USERNAME/claude-code-setup.git
+   cd claude-code-setup
    ```
 
 3. **Install dependencies**

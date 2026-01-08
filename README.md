@@ -1,13 +1,13 @@
-# Claude Setup CLI
+# Claude Code Setup
 
 > Automatically configure Claude Code for your project with intelligent agent recommendations, slash commands, and guardrails.
 
-[![npm version](https://badge.fury.io/js/claude-setup-cli.svg)](https://www.npmjs.com/package/claude-setup-cli)
+[![npm version](https://badge.fury.io/js/claude-code-setup.svg)](https://www.npmjs.com/package/claude-code-setup)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## What is Claude Setup CLI?
+## What is Claude Code Setup?
 
-Claude Setup CLI is an intelligent code generator that analyzes your project and creates a production-ready Claude Code configuration. It automatically generates:
+Claude Code Setup is an intelligent code generator that analyzes your project and creates a production-ready Claude Code configuration. It automatically generates:
 
 - **CLAUDE.md** - Your project's context and guidelines
 - **Custom Agents** - Specialized AI assistants for security, testing, tenant isolation, API compliance, and build fixes
@@ -21,10 +21,10 @@ Claude Setup CLI is an intelligent code generator that analyzes your project and
 
 ```bash
 # Using npx (recommended)
-npx claude-setup-cli init
+npx claude-code-setup init
 
 # Or install globally
-npm install -g claude-setup-cli
+npm install -g claude-code-setup
 claude-setup init
 ```
 
@@ -242,7 +242,7 @@ your-project/
 
 ```bash
 # In your Next.js project with Supabase and Stripe
-npx claude-setup-cli init
+npx claude-code-setup init
 ```
 
 **Generated setup includes:**
@@ -256,7 +256,7 @@ npx claude-setup-cli init
 
 ```bash
 # In your Express API project
-npx claude-setup-cli init
+npx claude-code-setup init
 ```
 
 **Generated setup includes:**
@@ -269,7 +269,7 @@ npx claude-setup-cli init
 
 ```bash
 # CLI works with any project type
-npx claude-setup-cli init
+npx claude-code-setup init
 ```
 
 Even for Python, Ruby, Go, or other languages, you'll get:
@@ -336,14 +336,14 @@ DEBUG=* claude-setup init
 If you encounter build errors after setup:
 1. Check Node.js version (requires Node 18+)
 2. Clear cache: `rm -rf node_modules && npm install`
-3. Report issue: https://github.com/anthropics/claude-setup-cli/issues
+3. Report issue: https://github.com/Adirtr/claude-code-setup/issues
 
 ## Development
 
 ```bash
 # Clone the repository
-git clone https://github.com/anthropics/claude-setup-cli.git
-cd claude-setup-cli
+git clone https://github.com/Adirtr/claude-code-setup.git
+cd claude-code-setup
 
 # Install dependencies
 pnpm install
@@ -373,13 +373,13 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## License
 
-MIT © [Anthropic](https://anthropic.com)
+MIT © [Adir Traitel](https://github.com/Adirtr)
 
 ## Support
 
 - **Documentation**: [Full docs](https://docs.anthropic.com/claude/claude-code)
-- **Issues**: [GitHub Issues](https://github.com/anthropics/claude-setup-cli/issues)
-- **Discord**: [Join our community](https://discord.gg/anthropic)
+- **Issues**: [GitHub Issues](https://github.com/Adirtr/claude-code-setup/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Adirtr/claude-code-setup/discussions)
 
 ## Acknowledgments
 
