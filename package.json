@@ -1,0 +1,80 @@
+{
+  "name": "claude-setup-cli",
+  "version": "1.0.0",
+  "description": "Automatically configure Claude Code for your project with intelligent agents, commands, and guardrails",
+  "author": "Anthropic PBC",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "cli",
+    "developer-tools",
+    "anthropic",
+    "setup",
+    "configuration",
+    "code-generation",
+    "project-setup",
+    "agents",
+    "mcp",
+    "model-context-protocol",
+    "nextjs",
+    "typescript",
+    "security",
+    "testing"
+  ],
+  "homepage": "https://github.com/anthropics/claude-setup-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthropics/claude-setup-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anthropics/claude-setup-cli/issues"
+  },
+  "bin": {
+    "claude-setup": "./bin/claude-setup.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "test:e2e": "tsx tests/e2e/runner.ts",
+    "test:e2e:quality": "tsx tests/e2e/runner.ts --with-quality",
+    "test:e2e:new": "tsx tests/e2e/runner.ts --scenario=new-empty-project",
+    "test:e2e:nextjs": "tsx tests/e2e/runner.ts --scenario=nextjs-supabase-app",
+    "test:e2e:express": "tsx tests/e2e/runner.ts --scenario=express-api",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "enquirer": "^2.4.1",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0",
+    "globby": "^14.0.0",
+    "ora": "^8.0.1",
+    "yaml": "^2.3.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.0",
+    "@vitest/coverage-v8": "^1.2.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": [
+    "CLAUDE.md"
+  ],
+  "optional": [
+    ".claude/settings.local.json"
+  ],
+  "forbidden": [
+    ".claude/agents/",
+    ".claude/commands/"
+  ],
+  "notes": "New empty project should only get basic CLAUDE.md in light mode"
+}

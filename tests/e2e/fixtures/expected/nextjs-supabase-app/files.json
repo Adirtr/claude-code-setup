@@ -1,0 +1,17 @@
+{
+  "required": [
+    "CLAUDE.md",
+    ".claude/settings.local.json",
+    ".claude/commands/pre-commit.md"
+  ],
+  "optional": [
+    ".claude/agents/security-reviewer.md",
+    ".claude/agents/tenant-security.md",
+    ".claude/agents/test-quality.md",
+    ".claude/agents/api-compliance.md",
+    ".claude/commands/security-scan.md",
+    ".claude/commands/test-review.md",
+    ".claude/settings.json"
+  ],
+  "notes": "Next.js + Supabase gets comprehensive setup, specific agents depend on detected patterns"
+}

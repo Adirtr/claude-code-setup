@@ -1,0 +1,13 @@
+{
+  "required": [
+    "CLAUDE.md",
+    ".claude/settings.local.json",
+    ".claude/commands/pre-commit.md"
+  ],
+  "optional": [
+    ".claude/agents/security-reviewer.md",
+    ".claude/agents/test-quality.md",
+    ".claude/commands/security-scan.md"
+  ],
+  "notes": "Express API gets basic setup with commands, agents depend on project complexity"
+}

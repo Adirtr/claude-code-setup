@@ -1,0 +1,38 @@
+{
+  "CLAUDE.md": {
+    "mustContain": [
+      "Next.js",
+      "Supabase",
+      "TypeScript"
+    ],
+    "mustNotContain": [
+      "{PROJECT_NAME}",
+      "{FRAMEWORK}",
+      "[TODO]",
+      "[FILL IN]"
+    ],
+    "minLength": 1000
+  },
+  ".claude/agents/security-reviewer.md": {
+    "mustContain": [
+      "security",
+      "OWASP"
+    ],
+    "mustNotContain": [
+      "{PROJECT",
+      "[TODO]"
+    ],
+    "minLength": 500
+  },
+  ".claude/agents/tenant-security.md": {
+    "mustContain": [
+      "user_id",
+      "tenant"
+    ],
+    "mustNotContain": [
+      "{TENANT",
+      "[TODO]"
+    ],
+    "minLength": 400
+  }
+}
